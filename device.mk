@@ -108,7 +108,11 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
+<<<<<<< HEAD
     libaudioroute \
+=======
+    libaudioroute \
+>>>>>>> d76c376... z2_plus: add libbthost_if to product_packages
     libbthost_if \
     libqcompostprocbundle \
     libqcomvisualizer \
