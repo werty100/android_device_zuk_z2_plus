@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera2
+    Snap
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -148,10 +148,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8996 \
     liboverlay \
     libtinyxml
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    ZukDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
