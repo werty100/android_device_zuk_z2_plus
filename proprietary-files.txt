@@ -601,8 +601,58 @@ vendor/lib/libsmwrapper.so
 vendor/lib/libsystem_health_mon.so
 -vendor/lib/libthermalclient.so
 -vendor/lib/libtime_genoff.so
+<<<<<<< HEAD
 vendor/lib/libTimeService.so
 vendor/lib/libtm_interface.so
+=======
+
+# Widevine
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
+# WiFi
+bin/cnss-daemon
+bin/cnss_diag
+etc/firmware/bdwlan30.bin
+
+# Other files (todo categorize)
+etc/aanc_tuning_mixer.txt
+etc/capability.xml
+usr/idc/usf_tsc_ext.idc
+usr/idc/usf_tsc.idc
+usr/idc/usf_tsc_ptr.idc
+vendor/etc/msm_irqbalance.conf
+vendor/etc/qcril_fancy.db
+vendor/etc/RIDL/qdss.cfg
+vendor/lib64/libCommandSvc.so
+vendor/lib64/libFidoCryptoJNI.so
+vendor/lib64/libFidoCrypto.so
+vendor/lib64/libFIDOKeyProvisioning.so
+vendor/lib64/libFidoSuiJNI.so
+vendor/lib64/libNimsWrap.so
+vendor/lib64/libqc-opt.so
+vendor/lib64/libqti-at.so
+vendor/lib64/libqti-gt.so
+vendor/lib64/libqti_performance.so
+vendor/lib64/libqti-wl.so
+vendor/lib64/librcc.so
+vendor/lib64/librilqmiservices.so
+vendor/lib64/libslimclient.so
+vendor/lib64/libtzdrmgenprov.so
+vendor/lib64/libvoice-svc.so
+vendor/lib/libdisp-aba.so
+vendor/lib/libFidoCryptoJNI.so
+vendor/lib/libFidoCrypto.so
+vendor/lib/libFIDOKeyProvisioning.so
+vendor/lib/libFidoSuiJNI.so
+vendor/lib/libjni_dualcamera.so
+vendor/lib/liblqe.so
+vendor/lib/libnetmgr.so
+vendor/lib/libNimsWrap.so
+vendor/lib/libqc-opt.so
+vendor/lib/libqct_resampler.so
+>>>>>>> 2dbb9f2... Move qcom graphics blobs to vendor
 vendor/lib/libtsvideoprocess.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/libvendorconn.so
