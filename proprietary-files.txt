@@ -276,7 +276,6 @@ vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libmm-color-convertor.so
-vendor/lib64/libmm-disp-apis.so
 vendor/lib64/libmmosal.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libNimsWrap.so
@@ -549,10 +548,8 @@ vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmm-color-convertor.so
-vendor/lib/libmm-disp-apis.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmosal.so
-vendor/lib/libmm-qdcm.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmorpho_image_stab4.so
