@@ -61,7 +61,7 @@ ENABLE_SCHED_BOOST := true
 TARGET_USES_64_BIT_BINDER := true
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=tty60,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=16M@0-0xffffffff
+BOARD_KERNEL_CMDLINE := console=tty60,115200,n8 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=16M@0-0xffffffff androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
@@ -71,7 +71,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CONFIG := n7x-caf_z2_plus_defconfig
+TARGET_KERNEL_CONFIG := lineageos_z2_plus_defconfig
 TARGET_KERNEL_SOURCE := kernel/zuk/msm8996
 
 # QCOM hardware
@@ -152,6 +152,13 @@ SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
 #   endif
 #  endif
 #endif
+
+# citrus hax
+TARGET_USE_CM_RAMDISK := true
+USE_SENSOR_MULTI_HAL := true
+TARGET_PROVIDES_CALMODULE := true
+WITH_CM_CHARGER := true
+TARGET_AINT_WANT_NO_STOCK_SENSOR := true
 
 
 # Init
