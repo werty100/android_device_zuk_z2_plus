@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "device_zuk_z2_plus",
+    "target_path": "device/zuk/z2_plus",
+    "branch": "n"
+  },
+  {
+    "repository": "kernel_zuk_msm8996",
+    "target_path": "kernel/zuk/msm8996"
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "ontherunvaro/proprietary_vendor_zuk_z2_plus",
+    "target_path": "vendor/zuk/z2_plus",
+    "branch": "cm-14.1"
+  }
+]
